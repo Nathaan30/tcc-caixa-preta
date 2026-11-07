@@ -32,7 +32,7 @@ EstadoMoto AnalisadorSinistro::verificar(DadosTelemetria dados, unsigned long te
       break;
 
     case ALERTA_QUEDA:
-      Serial.println("Estado: ALERTA_QUEDA");
+     // Serial.println("Estado: ALERTA_QUEDA");
       if (impactoForte) impactoDuranteAlerta = true;
 
       // Validação de falso positivo (recuperação)

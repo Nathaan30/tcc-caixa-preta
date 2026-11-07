@@ -3,7 +3,7 @@
 
 class BufferCircular {
   private:
-    static const int TAMANHO = 50; // 50 amostras a 5Hz = 10 segundos
+    static const int TAMANHO = 100; // 100 amostras a 10 Hz = 10 segundos
     DadosTelemetria amostras[TAMANHO];
     int indiceAtual = 0;
 
